@@ -1,0 +1,170 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+canvas{
+    position:absolute;margin-top:40px;left:0;
+    
+}
+header
+{
+	background-image: url(long_loaf_cheese_berry_morning_breakfast_44580_2596x1608.jpg);
+    gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))url(long_loaf_cheese_berry_morning_breakfast_44580_2596x1608.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position:center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style:none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: purple;
+	text-decoration:none;
+	padding:5px 20px;
+	font-family: "Roborto", sans-serif;
+	font-size:15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid black;
+	
+}
+
+.main-nav li a:hover
+{
+	border:1px solid black;
+	color:black;
+}
+
+body
+{
+  font-family:monospace;
+
+}
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+#open {
+    display: none;
+}
+
+
+.hero
+{
+	position:absolute;
+	width:1200px;
+	margin-left:0px;
+	margin-top:270px;
+	
+}
+
+h1
+{
+	color:black;
+	text-transform:uppercase;
+	text-size:200px;
+	text-align: center;
+	margin-top:0px;
+}
+
+
+.SearchButton{
+	position:absolute;
+	margin-left:500px;
+	margin-top:350px;
+}
+
+#search {
+    
+
+}
+
+#search {
+    background: no-repeat 10px 6px #444;
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 200px;
+    height:30px;
+    padding: 6px 15px 6px 35px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search:focus {
+    width: 300px;
+    }
+
